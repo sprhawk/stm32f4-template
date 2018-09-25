@@ -1,13 +1,15 @@
 
-GCC_ROOT = $(HOME)/Developer/prjs/embeded/gcc-arm-none-eabi-4_9-2015q3/
-GNU_VERSION := 4.9.3
+# GCC_ROOT = $(HOME)/Developer/prjs/embedded/gcc-arm-none-eabi-4_9-2015q3/
+# GNU_VERSION := 4.9.3
+GCC_ROOT = $(HOME)/Developer/prjs/embedded/gcc-arm-none-eabi-7-2018-q2-update/
+GNU_VERSION := 7.3.1
 GNU_PREFIX := arm-none-eabi
 
-OPENOCD_ROOT = $(HOME)/Developer/prjs/embeded/openocd-bin-0.9.0/
+OPENOCD_ROOT = $(HOME)/Developer/prjs/embedded/build/bin
 
 
 # System libraries paths
-SDK_ROOT = $(HOME)/Developer/prjs/embeded/stm32f4/STM32Cube_FW_F4_V1.8.0/
+SDK_ROOT = $(HOME)/Developer/prjs/embedded/stm32f4/STM32Cube_FW_F4_V1.8.0/
 DRIVERS_ROOT = $(SDK_ROOT)Drivers/
 HAL_DRIVER_ROOT = $(DRIVERS_ROOT)STM32F4xx_HAL_Driver/
 CMSIS_ROOT = $(DRIVERS_ROOT)CMSIS/
